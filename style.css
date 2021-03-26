@@ -157,3 +157,21 @@ body {
 .code{
   display: none;
 }
+
+.logout {
+  padding: 10px;
+  width: 65%;
+  background-color: #c9361d;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 20px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-left: 15%;
+}
+.hedu{
+  margin-top: 22%;
+}

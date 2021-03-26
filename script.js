@@ -1,6 +1,7 @@
 var container=document.getElementById("patientid");
 var logindiv=document.getElementById("logindiv");
 
+
 container.classList.add("code");
 var objuser=[
 
@@ -105,3 +106,7 @@ function getValues() {
 //calling getvalues function
 getValues();
 
+function logout(){
+  container.classList.add("code");
+  logindiv.classList.remove("code");
+}
